@@ -4,7 +4,8 @@
 using namespace std;
 
 int main() {
-    int base, power, mod;
+    int base, mod;
+    int64_t power;
     cin >> base >> power >> mod;
     cout << PowerBinary(base, power, mod) << endl;
     return 0;
