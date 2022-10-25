@@ -13,4 +13,10 @@ int main() {
         }
         cout << endl;
     }
+
+    for (int i = 0; i < n; ++i) {
+        delete[] spiral[i];
+    }
+    delete[] spiral;
+    return 0;
 }
