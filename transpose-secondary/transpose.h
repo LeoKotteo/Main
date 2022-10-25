@@ -1,0 +1,1 @@
+void TransposeSecondary(int** matrix, int n);
