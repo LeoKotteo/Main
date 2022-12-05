@@ -4,5 +4,6 @@ project(bsu-cpp)
 
 add_subdirectory(catch)
 
+add_subdirectory(multiplication)
 add_subdirectory(vector)
 add_subdirectory(date)
